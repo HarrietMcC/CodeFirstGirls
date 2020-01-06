@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>South East Asia</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+</head>
+<body class="SEA">
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-epxanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="Homepage.html">Homepage</a>
+    </div>
+    <div id="navbar" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="UK.html">UK</a></li>
+        <li><a href="Europe.html">Europe</a></li>
+        <li><a href="South-East-Asia.html">SEA</a></li>
+        <li><a href="USA.html">America</a></li>
+    </ul>
+    </div>
+  </div>
+</nav>
+  <div id="drinks-intro-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h1>South East Asia</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+<div class="container drinks-days">
+  <div class="row">
+    <div class="col-sm-4">
+      <!-- <h2>Sunday</h2> -->
+      <img src="images/SEA/bangkok-2.jpg" class="img-circle center-block">
+    </div>
+    <div class="col-sm-4">
+      <h3><a href="https://www.lonelyplanet.com/thailand">Thailand</a></h3>
+      <p>The backpacker's home. From dazzling, dreamy white beaches to awe-inspiring, fascinating temples, to bustling cities and nightlife. This country has it all and is a favourite destination for those looking to spread their wings a little further outside of Europe. Check out the amazing temples, scrambling markets and nightlifes when staying in the cities but head South to go island-hopping for some of the most tranquil beaches, best seafood and cheapest diving experiences anyone could ask for.
+<br>
+<a href="https://www.facebook.com/thaikingdom/" target="_blank">
+        <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
+    </a>
+  <a href="https://twitter.com/thailandfanclub?" target="_blank">
+        <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
+      </p>
+    </div>
+    <div class="col-sm-4">
+      <p>Bangkok, Thailand</p>
+            <div id="location1" class="map"> </div>
+    </div>
+  </div>
+</div>
+<div class="container drinks-days">
+  <div class="row">
+    <div class="col-sm-4">
+      <!-- <h2></h2> -->
+      <img src="images/SEA/pp2.jpg" class="img-circle center-block">
+    </div>
+    <div class="col-sm-4">
+      <h3><a href="https://www.lonelyplanet.com/cambodia">Cambodia</a></h3>
+      <p>Cambodia takes on a slightly more educational vibe than her sisters. Home of Angkor Wat, the largest religious monument in the world, the location is a must-see for any traveller worth their salt. The Temples of Angkor are simply astounding for both their grand scale and incredible detail. Get up early (5am) in order to see the awesome sunrise and hire a tuk-tuk to take you round for the day - just remember to cover shoulders and knees! From Siem Reap, head down to Phnom Penh. The captial of the country is an overload to the senses and has a dark past, but it would be a mistake to miss the somber views that is Cambodia's Killing Fields and S21 museum.
+<br>
+<a href="https://www.facebook.com/withoutfearorfavor/" target="_blank">
+        <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
+    </a>
+  <a href="https://twitter.com/ukincambodia?" target="_blank">
+        <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
+      </p>
+    </div>
+    <div class="col-sm-4">
+       <p>Phnomh Penh, Cambodia</p>
+      <div id="location2" class="map"> </div>
+    </div>
+  </div>
+</div>
+<div class="container drinks-days">
+  <div class="row">
+    <div class="col-sm-4">
+    <!-- <h2>Tuesday</h2> -->
+      <img src="images/SEA/halong2.jpg" class="img-circle center-block">
+    </div>
+    <div class="col-sm-4">
+      <h3><a href="https://www.lonelyplanet.com/vietnam">Vietnam</a></h3>
+      <p>A land of staggering natural beauty and cultural complexity. Be sure to visit destinations up and down the country. Again, check out the markets and nightlife of the major cities in Ho Chi Minh and Hanoi if you have time, but be certain not to miss Hoi An to pick up a made-to-measure tailored garment. These items typically take up to 4 days to make, with around 4-5 fittings, but there is much to see around the small town. Try to time your visit with the monthly lantern festival. Head North to book a journey around Ha Long Bay and marvel at the floating islands, before journeying further North still to try a 3 day hike in the mountains of Sapa and wonder at the stunning view of rice fields before you.
+<br>
+<a href="https://www.facebook.com/VietnamTravelGroup/" target="_blank">
+        <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
+    </a>
+  <a href="https://twitter.com/MOFAVietNam?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">
+        <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
+
+      </p>
+    </div>
+    <div class="col-sm-4">
+      <p>Ho Chi Minh City, Vietnam</p>
+      <div id="location3" class="map"> </div>
+    </div>
+  </div>
+</div>
+<script>
+      function initMap() {
+        var maps=[];
+        var markers=[];
+        var locations=[
+        {
+          position: {lat:13.7563, lng:100.5018},
+          id: "location1"
+         },
+         {
+
+          position: {lat:11.5564, lng:104.9282},
+          id: "location2"
+         },
+         {
+
+          position: {lat:10.8231, lng:106.6297},
+          id: "location3"
+         },
+
+        ];
+        locations.forEach(function(location,index){
+          maps[index] = new google.maps.Map(document.getElementById(location.id), {
+            zoom: 12,
+            center: location.position
+          });
+          markers[index] = new google.maps.Marker({
+            position: location.position,
+            map: maps[index]
+          });
+        })
+
+        };
+
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyALFTx-tEJIn-8sxvFXdVp6j3PF07ZoALQ&callback=initMap">
+    </script>
+</body>
+</html>
