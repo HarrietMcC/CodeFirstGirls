@@ -80,6 +80,15 @@ body.about {
 	background-image: url("../images/home/UK.jpg");
 }
 
+#about-para {
+	height: 40%;
+	width: 40%;
+	position: absolute;
+	margin-top: 270px;
+	margin-left: 400px;
+	text-align: justify;
+}
+
 .map{
 	height:300px;
 	width: 100%;
