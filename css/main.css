@@ -10,6 +10,11 @@ p{
 	font-size:19px;
 	color: white;
 }
+
+p.about {
+
+}
+
 h2{
 	font-family:"Pacifico", cursive;
 	font-size:19px;
@@ -69,6 +74,19 @@ body.Europe {
 }
 body.UK{
 	background-image: url("../images/home/UK.jpg");
+}
+
+body.about {
+	background-image: url("../images/home/UK.jpg");
+}
+
+#about-para {
+	height: 40%;
+	width: 40%;
+	position: absolute;
+	margin-top: 270px;
+	margin-left: 400px;
+	text-align: justify;
 }
 
 .map{
